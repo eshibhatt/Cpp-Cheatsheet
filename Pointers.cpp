@@ -25,4 +25,15 @@ and, therefore, the size in bytes of the type it points to is added to the point
 Dangling Pointers:A dangling pointer is a pointer pointing to a memory location that has been freed (or deleted).
 free(scorePtr);
 
+Typecasting: Means assigning one type of data to another type, like storing an integer value to a char data type.
+eg: i) implicit typecasting : as the compiler itself interprets the conversion of integer value to ASCII character value.
+    int x=65;
+    char c= x;
+
+eg: ii) explicit typecasting : User defined typecasting
+int i = 65; 
+int *p = &i;
+char *pc = (char*) p;
+
+#char *pc = p;will give an error as we are trying to store an integer-type pointer value into a character-type value. 
 */
