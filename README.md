@@ -14,7 +14,6 @@
 11. Functions
 12. Objects & Classes
 13. Arrays
-14. 
 
 
 I created these cheatsheets to help my friends who are learning C++.
